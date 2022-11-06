@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,459 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.hero {
+  width: 100%;
+  contain: content;
+  /* border-top-left-radius: 25px; */
+  /* border-top-right-radius: 25px;
+  background-color: blue; */
 }
+
+
+/*------ FOR SMALL MOBILE VIEW------ */
+
+@media (min-width:320px) {
+  .App {
+    background-image: url(./ASSETS/pattern-background-mobile.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+  }
+  
+  /* home component */
+
+  .home-container {
+    margin: 50px 20px;
+    border-radius: 25px;
+    background-color: white;
+  }
+  .column {
+    background-color: white;
+    padding: 20px;
+  }
+
+  /* main component */
+
+
+  .col-text {
+    background-color: white;
+    margin: 20px;
+
+
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .col-text p {
+    color: hsl(224, 23%, 55%);
+    font-size: 18px;
+    padding: 5px 5px;
+  }
+
+  /* Article component */
+
+  .Plans {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(223, 23%, 96%);
+    position: relative;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .icon {
+    background-color: hsl(224, 23%, 55%);
+    border-radius: 100px;
+    border: none;
+    overflow: hidden;
+
+  }
+
+  .sub-plan {
+    text-align: left;
+    position: absolute;
+    left: 5rem;
+
+  }
+  h4{
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+    margin: 10px 0px;
+    font-size: 13px;
+    position: absolute;
+    left: 12rem;
+
+
+  }
+
+  .sub-plan p {
+    color: hsl(224, 23%, 55%);
+  }
+
+  .orders a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+
+  .orders {
+    margin: 30px 0px;
+    justify-content: space-between;
+  }
+
+  .btn-again {
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 30px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px 5px  rgb(213, 213, 231);
+    overflow: hidden;
+  }
+}
+
+/*----- FOR LARGE MOBILE VIEW ----- */
+
+@media (min-width:425px) {
+  .App {
+    background-image: url(./ASSETS/pattern-background-desktop.svg);
+    background-color: rgb(215, 235, 241);
+    background-repeat: no-repeat;
+  }
+
+  .home-container {
+    margin: 30px 50px;
+    border-radius: 25px;
+    background-color: white;
+  }
+
+  .column {
+    background-color: white;
+    padding: 20px;
+  }
+
+  .col-text {
+    background-color: white;
+    margin: 20px;
+
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .col-text p {
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    height: 4rem;
+    width: 100%;
+  }
+
+  .Plans {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(223, 23%, 96%);
+    position: relative;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .icon {
+    background-color: hsl(224, 23%, 55%);
+    border-radius: 100px;
+    border: none;
+    overflow: hidden;
+
+  }
+
+  .sub-plan {
+    text-align: left;
+    position: absolute;
+    left: 5rem;
+
+  }
+  h4{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+    margin: 10px 0px;
+    font-size: 16px;
+    position: absolute;
+    left: 13rem;
+
+
+  }
+
+  .sub-plan p {
+    color: hsl(224, 23%, 55%);
+  }
+
+  .orders a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+
+  .orders {
+    margin: 30px 0px;
+    justify-content: space-between;
+  }
+
+  .btn-again {
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 30px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px 5px  rgb(213, 213, 231);
+    overflow: hidden;
+  }
+}
+
+/* -----FOR TABLET VIEW----- */
+
+@media (min-width:768px) {
+  .App {
+    background-image: url(./ASSETS/pattern-background-desktop.svg);
+    background-color: rgb(215, 235, 241);
+    background-repeat: no-repeat;
+  }
+
+  .home-container {
+    margin: 50px 100px;
+    border-radius: 25px;
+    background-color: white;
+  }
+  .column {
+    margin: 30px;
+  }
+
+  .col-text {
+    background-color: white;
+    margin: 20px;
+
+  }
+
+  h2 {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+
+  .col-text p {
+    color: hsl(224, 23%, 55%);
+    font-size: 23px;
+    height: 6rem;
+  }
+
+  .Plans {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(223, 23%, 96%);
+    position: relative;
+    padding: 40px;
+    width: 100%;
+  }
+
+  .icon {
+    background-color: hsl(224, 23%, 55%);
+    border-radius: 100px;
+    border: none;
+    overflow: hidden;
+    width: 70px;
+
+  }
+
+  .sub-plan {
+    text-align: left;
+    position: absolute;
+    left: 9rem;
+
+  }
+  h4{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    font-size: 25px;
+  }
+
+  span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+    margin: 10px 0px;
+    font-size: 23px;
+    position: absolute;
+    left: 22rem;
+
+
+  }
+
+  .sub-plan p {
+    font-size: 25px;
+  }
+
+  .orders a {
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+
+  .orders {
+    margin: 30px 0px;
+    justify-content: space-between;
+  }
+
+  .btn-again {
+    width: 100%;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 30px 40px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px 5px  rgb(213, 213, 231);
+    overflow: hidden;
+    cursor: pointer;
+  }
+}
+
+@media (min-width:1025px) {
+
+  /* for desktop */
+
+  .home-container {
+    margin: 50px 400px;
+    border-radius: 30px;
+  }
+  .column {
+    margin: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .col-text p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0px;
+  }
+
+  .sub-plan {
+    left: 9rem;
+
+  }
+  h4{
+    font-size: 23px;
+    font-weight: 800;
+  }
+
+  span {
+    font-size: 20px;
+    left: 50rem;
+
+
+  }
+
+  .sub-plan p {
+    font-size: 27px;
+  }
+
+  .orders a {
+    font-size: 2px;
+    font-weight: 600;
+
+  }
+
+  .btn-again {
+    font-size: 25px;
+  }
+}
+/* FOR LARGE DESKTOP  */
+/* @media (min-width:1440px) {
+
+
+  .home-container {
+    margin: 50px 1000px;
+    border-radius: 30px;
+  }
+  .column {
+    margin: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .col-text p {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0px;
+  }
+
+  .sub-plan {
+    left: 9rem;
+
+  }
+  h4{
+    font-size: 27px;
+    font-weight: 800;
+  }
+
+  span {
+    font-size: 25px;
+    left: 24rem;
+
+
+  }
+
+  .sub-plan p {
+    font-size: 27px;
+  }
+
+  .orders a {
+    font-size: 25px;
+    font-weight: 600;
+
+  }
+
+  .btn-again {
+    font-size: 25px;
+  }
+} */
