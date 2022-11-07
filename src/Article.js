@@ -39,7 +39,7 @@ const Article = () => {
             <div className='orders'>
                 <button className='btn-again'>Proceed To Payment</button> <br />
                 {/* <span className='cancel'>Cancel Order</span> */}
-                <a href="cancel">Cancel Order</a>
+                <a href="https://elegant-kataifi-fb8539.netlify.app">Cancel Order</a>
                 {/* <span className='footer' onClick={() => clearOrder([])}>Cancel Order</span> */}
             </div>
 
