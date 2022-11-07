@@ -38,9 +38,9 @@ const Article = () => {
 
             <div className='orders'>
                 <button className='btn-again'>Proceed To Payment</button> <br />
-                <span className='btn'>Cancel Order</span>
-                {/* <a href="">Cancel Order</a>
-                <span className='footer' onClick={() => clearOrder([])}>Cancel Order</span> */}
+                {/* <span className='cancel'>Cancel Order</span> */}
+                <a href="cancel">Cancel Order</a>
+                {/* <span className='footer' onClick={() => clearOrder([])}>Cancel Order</span> */}
             </div>
 
         </div>

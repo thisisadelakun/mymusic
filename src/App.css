@@ -439,7 +439,7 @@
   }
 }
 /* FOR LARGE DESKTOP  */
-/* @media (min-width:1440px) {
+ @media (min-width:1440px) {
 
 
   .home-container {
@@ -490,4 +490,4 @@
   .btn-again {
     font-size: 25px;
   }
-} */
+} 
